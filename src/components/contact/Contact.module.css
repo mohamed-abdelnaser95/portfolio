@@ -1,0 +1,109 @@
+.contact{
+    position: relative;
+    height: 120vh;
+}
+
+.title{
+    margin: 50px 0;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 800;
+    letter-spacing: -3px;
+    margin: 0;
+    color: rgb(235, 236, 237);
+}
+
+.leftSide{
+    width: 20px;
+    height: 99vh;
+    position: absolute;
+    background-color: crimson;
+}
+
+.wrapper{
+    padding: 50px;
+    display: flex;
+}
+
+.contactLeft{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #444;
+}
+
+.leftTitle{
+    font-size: 50px;
+}
+
+.leftInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.cData{
+    padding: 20px;
+    display:  flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.imgData{
+    width: 50px;
+}
+
+.infoData{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+/* Right section */
+.contactRight{
+    flex: 1;
+}
+
+.rightDesc{
+    font-size: 19px;
+    padding: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    width: 50%;
+    padding: 10px;
+    margin: 20px 0;
+    border: none;
+    border-bottom: 1px solid #444;
+    outline: none;
+    caret-color: #444;
+    font-size: 19px;
+    color: #444;
+}
+
+form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 19px;
+    color: #444;
+    caret-color: #444; 
+}
+
+.formBtn{
+    width: fit-content;
+    padding: 10px 20px;
+    font-size: 19px;
+    background-color: crimson;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
